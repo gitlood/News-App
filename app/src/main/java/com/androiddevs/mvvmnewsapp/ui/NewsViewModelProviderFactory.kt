@@ -7,7 +7,8 @@ import com.androiddevs.mvvmnewsapp.repository.NewsRepository
 
 class NewsViewModelProviderFactory(
     val newsRepository: NewsRepository
-): ViewModelProvider.Factory {
+) : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-return NewsViewModel(newsRepository = newsRepository) as T    }
+        return NewsViewModel(newsRepository = newsRepository) as T
+    }
 }
