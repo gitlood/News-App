@@ -7,7 +7,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.androiddevs.mvvmnewsapp.R
 import com.androiddevs.mvvmnewsapp.db.ArticleDatabase
-import com.androiddevs.mvvmnewsapp.models.NewsViewModel
 import com.androiddevs.mvvmnewsapp.repository.NewsRepository
 import kotlinx.android.synthetic.main.activity_news.*
 
